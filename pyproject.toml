@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jetstream"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faststream = {extras = ["nats"], version = "^0.4.5"}
+nats-py = "^2.7.2"
+nats-py-worker = "^0.0.9"
+watchfiles = "^0.21.0"
+aiohttp = "^3.9.3"
+tenacity = "^8.2.3"
+pydantic = "^2.6.4"
+python-slugify = "^8.0.4"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
