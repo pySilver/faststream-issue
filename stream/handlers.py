@@ -1,7 +1,6 @@
 import asyncio
 import random
 import pandas as pd
-import datetime
 
 from faststream.nats.annotations import NatsBroker
 from nats.js.kv import KeyValue as KV
